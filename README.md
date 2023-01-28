@@ -16,3 +16,4 @@ $ npm install
 $ npm start
 ````
 
+![bandicam 2023-01-28 20-40-25-869](https://user-images.githubusercontent.com/120677681/215293444-257db105-c3a7-49e5-8ec8-16efd7cc24d2.jpg)
