@@ -3,6 +3,7 @@ body {
     background:url(./images/basketball5.jpg);
     background-size: cover;
 	max-width: 100%;
+	max-height: 100%;
 }
 .game{
     margin: auto;
