@@ -1,0 +1,54 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+                
+    </head>
+    <body>
+    <div class="game">
+        <img class="logo" src="./images/logo.png">
+        <div class="container">
+            
+        <div>
+                <h3 className="hometit">HOME</h3>
+                <div id="home-scoreBoard">
+                     <h1 id="home-score">0</h1>
+                </div>
+                
+                <div id="H-points">
+                     <div onclick="onePointerHome()" id="G-points1"><p>+1</p></div>
+                     <div onclick="twoPointerHome()" id="G-points2"><p>+2</p></div>
+                     <div onclick="threePointerHome()" id="G-points3"><p>+3</p></div>
+                </div>
+              
+        </div>
+        
+            
+         <div>
+                <h3>GUEST</h3>
+                 <div id="guest-scoreBoard">
+                     <h1 id="guest-score">0</h1>
+                </div>
+                
+                <div id="G-points">
+                     <div onclick="onePointerGuest()" id="G-points1"><p>+1</p></div>
+                     <div onclick="twoPointerGuest()" id="G-points2"><p>+2</p></div>
+                     <div onclick="threePointerGuest()" id="G-points3"><p>+3</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="counter"></div>
+            <input id="seconds" type="number" placeholder="Seconds...">
+            <div class="buttons">
+                <button class="btn start" id="start" value="1" onclick="check(this)">Start</button>
+                <button class="btn start" id="continue" value="1" onclick="check(this)">Continue</button>
+                <button class="btn stop" id="stop" value="0" onclick="check(this)">Pause</button>
+                <button class="btn start" id="submit" onclick="subm()">Submit</button>
+            </div>
+        <script type="text/javascript" src="main.js"></script>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

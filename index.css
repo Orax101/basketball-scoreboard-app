@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    background:url(./images/basketball5.jpg);
+    background-size: cover;
+}
+.game{
+    margin: auto;
+    height: 550px;
+    width: 500px;
+    padding: auto;
+    background-color:#070f2e;;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.logo{
+    height:150px;
+    width: 150px;
+    margin: -10px auto 0px auto ;
+    display:block;
+}
+
+.container h3{
+width: 149px;
+height: 36px;
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+text-align: center;
+color: #EEEEEE;
+}
+
+.container h1{
+width: 117px;
+height: 120px;
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+text-align: center;
+margin: auto;
+color: #F94F6D;
+}
+
+.container p{
+font-family: 'Cursed Timer ULiL';
+text-shadow: 0px 0px 2px black;
+}
+
+
+#home-scoreBoard{
+width: 155px;
+height: 120px;
+left: 82px;
+top: 125px;
+background: #080001;
+border-radius: 5px;
+color:beige;
+margin-top: 20px;
+}
+
+#guest-scoreBoard{
+width: 155px;
+height: 120px;
+left: 82px;
+top: 125px;
+background: #080001;
+border-radius: 5px;
+color:beige;
+margin-top: 20px;
+}
+
+/*home team*/
+#H-points{
+display: flex;
+justify-content: space-around;
+margin-top: 20px
+}
+
+#H-points1 {
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+width: 45px;
+height: 45px;
+border: 2px solid #9AABD8;
+border-radius: 5px;
+color: #EEEEEE;
+padding: 10px 6px 4px  10px ;
+background-color: transparent;
+}
+
+#H-points2{
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+width: 45px;
+height: 45px;
+border: 2px solid #9AABD8;
+border-radius: 5px;
+color: #EEEEEE;
+padding: 10px 6px 4px  10px ;
+background-color: transparent;
+}
+
+#H-points3{
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+width: 45px;
+height: 45px;
+border: 2px solid #9AABD8;
+border-radius: 5px;
+color: #EEEEEE;
+padding: 10px 6px 4px  10px ;
+background-color: transparent;
+}
+
+/*guest team*/
+#G-points{
+display: flex;
+justify-content: space-around;
+margin-top: 20px
+}
+
+#G-points1 {
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+width: 45px;
+height: 45px;
+border: 2px solid #9AABD8;
+border-radius: 5px;
+color: #EEEEEE;
+padding: 10px 6px 4px  10px ;
+}
+
+#G-points2{
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+width: 45px;
+height: 45px;
+border: 2px solid #9AABD8;
+border-radius: 5px;
+color: #EEEEEE;
+padding: 10px 6px 4px  10px ;
+}
+
+#G-points3{
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+width: 45px;
+height: 45px;
+border: 2px solid #9AABD8;
+border-radius: 5px;
+color: #EEEEEE;
+padding: 10px 6px 4px  10px ;
+}
+
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.content{
+	height: 60vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 3rem;
+	text-transform: uppercase;
+    margin-top: -108px;
+}
+
+.btn{
+	padding: 0.8rem 1.7rem;
+	background-color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 4px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.start{
+	color: #1f3;
+}
+.stop{
+	color: #E00;
+}
+
+#continue, .stop, #start{
+	display: none;
+}
+#seconds{
+	width: 250px;
+	background: none;
+	outline: none;
+	border: none;
+	border-bottom: 4px solid #fff;
+	padding: 1rem;
+	font-size: 2rem;
+	color: white;
+}
+
+#seconds::placeholder{
+	color: #ddd;
+}
